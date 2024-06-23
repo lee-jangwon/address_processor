@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "address-processing"
+version = "0.1.0"
+description = ""
+authors = ["J Lee <leejangwon1995@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+requests-kerberos = "^0.15.0"
+arcgis = "^2.3.0.3"
+python-dotenv = "^1.0.1"
+dask = {extras = ["dataframe"], version = "^2024.6.0"}
+openpyxl = "^3.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
